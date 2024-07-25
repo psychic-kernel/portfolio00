@@ -1,9 +1,8 @@
-import Image from "next/image";
-
-export default function Home() {
+import { FaHome } from  'react-icons/fa';
+const HomePage = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p>Made a change</p>
+    <main>
+      <span className="bg-slate-800 text-5xl text-purple-400"><FaHome/></span>
     </main>
-  );
-}
+  )
+}; export default HomePage;
