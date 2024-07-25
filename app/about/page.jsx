@@ -1,5 +1,5 @@
 export const metadata = {
-    title: About | 'Michael A. Robins'
+    title: "About" | 'Michael A. Robins'
 }
 
 const AboutPage = () => {
