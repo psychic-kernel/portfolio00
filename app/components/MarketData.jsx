@@ -12,7 +12,8 @@ async function getMarketData() {
     }
 }
 
-const MarketData = async () => {
+
+const MarketData = async ({stock_symbol, stock_name, stock_change, stock_price}) => {
     const content = await getMarketData();
 
     return (
