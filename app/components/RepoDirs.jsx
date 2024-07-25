@@ -23,7 +23,7 @@ const RepoDirs = async ({name}) => {
         <div className="relative block bottom-40 ">
             
                 {dirs.map((dir) => {
-                    return  <ul>
+                    return  <ul key={dir.id}>
                             <FaApple className="text-cyan-200 relative top-4"/>
                             <li className="ml-5 shadow-xl">
                                 <Link href={`/repos/${dir.name}`} key={dir.name}>
