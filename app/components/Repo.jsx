@@ -15,7 +15,7 @@ const Repo = async ({ name }) => {
 
     return  <>
             {repo.map((repo) => {
-                return <div className="relative flex">
+                return <div className="relative flex" key={repo.id}>
                 {/* <div>
                     <h3 className="relative inline pb-5">{repo.name}</h3>
                  <p>{repo.description}</p> 
