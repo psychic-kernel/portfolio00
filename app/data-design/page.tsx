@@ -54,7 +54,7 @@ async function MarketData() {
     );
   }
 
-const DataDesignPage = () =>{
+export default function DataDesignPage(){
 
     return (
         <main>
@@ -62,4 +62,4 @@ const DataDesignPage = () =>{
             <MarketData/>
         </main>
     )
-}; export default DataDesignPage;
+}; 
