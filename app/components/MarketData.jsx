@@ -1,4 +1,4 @@
-async function getMarketData() {
+export async function getMarketData() {
     try {
         const response = await fetch('http://localhost:3001/api/market-details');
         const data = await response.json();
@@ -13,7 +13,7 @@ async function getMarketData() {
 }
 
 
-const MarketData = async ({stock_symbol, stock_name, stock_change, stock_price}) => {
+const MarketData = async () => {
     const content = await getMarketData();
 
     return (
