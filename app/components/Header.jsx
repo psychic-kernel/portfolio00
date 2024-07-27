@@ -27,7 +27,7 @@ const Header = () => {
                             <Link href="/data-design">Data Design</Link>
                         </li>
                         <li className="mx-1 text-cyan-300 rounded-lg p-1 hover:bg-green-400 hover:text-cyan-900">
-                            <Link href="/post">Posts</Link>
+                            <Link href="/posts">Posts</Link>
                         </li>
                     </ul>
                 </div>
