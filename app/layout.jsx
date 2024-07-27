@@ -15,7 +15,7 @@ const iceLand = Iceland({
 })
 
 export const metadata = {
-  title: "Manic Media",
+  title: "Portfolio",
   description: "Learning next.js so that I can better understand how server side components work in the react framework.",
   keywords: 'Next, React, Server-Side Components, data fetching, data caching html css tailwind.css'
 };
