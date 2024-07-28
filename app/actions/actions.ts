@@ -22,7 +22,7 @@ export async function createPost(formData: FormData) {
           content: formData.get("content") as string,
           author: {
             connect: {
-              email: "malexrs93@gmail.com",
+              email: "mike@gmail.com",
             }
           }
         },
