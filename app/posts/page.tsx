@@ -21,7 +21,7 @@ export default async function PostsPage(){
     //});
     const user = await prisma.user.findUnique({
         where: {
-            email: 'malexrs93@gmail.com',
+            email: 'mike@gmail.com',
         },
         include: {
             posts: true,
@@ -37,7 +37,7 @@ export default async function PostsPage(){
             <ul>
                 {user?.posts.map(post => (
                     <li key={post.id}>
-                        <span>Author: {user.email.replace(/(93@gmail.com)/g, '' ).toString()}</span><br/>
+                        <span>Author: {user.email.replace(/(@gmail.com)/g, '' ).toString()}</span><br/>
                         <Link href={`/posts/${post.slug}`}>
                           {post.title}
                         </Link>
