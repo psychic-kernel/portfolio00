@@ -13,7 +13,7 @@ const Header = () => {
                 </div> */}
                 
                 <div className="fixed flex top-0 left-5 w-fit">
-                    <ul className="flex flex-nowrap w-fit rounded-lg shadow-md p-1 bg-zinc-800 opacity-80">
+                    <ul className="flex flex-nowrap w-fit rounded-lg shadow-md p-1 bg-zinc-800 opacity-80 z-50">
                         <li className="mx-1 text-cyan-300 rounded-lg p-1 hover:bg-green-400 hover:text-cyan-900">
                             <Link href="/about">About</Link>
                         </li>

@@ -1,7 +1,25 @@
-const TeamPage = () => {
+'use-client'
+import { motion, useTransform, useScroll } from "framer-motion";
+
+// import { useRef } from "react";
+const MyWork = () => {
     return (
         <main>
-            <p className="relative top-20 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ipsa fuga quibusdam, ipsum tempore atque impedit, fugiat ut quis dolores nihil nesciunt in non iure voluptate excepturi, aperiam eos culpa.</p>
+           <img src="/assets/crud_forms.png" alt="Figma Design"/>
+           <img src="/assets/dashboard-emails-appsmodal.png" alt="Figma Design"/>
+           <img src="/assets/dashboard-prototype.png" alt="Figma Design"/>
+           <img src="/assets/dashboard-timer.png" alt="Figma Design"/>
+
+      
+
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+      ></motion.div>
+
+    
+           
         </main>
     );
-}; export default TeamPage;
+}; export default MyWork;
